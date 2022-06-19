@@ -2,6 +2,8 @@ module bookcrossing-backend
 
 go 1.18
 
+require github.com/mattn/go-sqlite3 v1.14.13
+
 require (
 	ariga.io/atlas v0.4.2 // indirect
 	entgo.io/ent v0.10.2-0.20220502113020-4ac82f5bb3f0 // indirect
@@ -11,8 +13,10 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.4.1 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.12.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect

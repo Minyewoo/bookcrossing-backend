@@ -17,3 +17,6 @@
 # Generated code
 ent/*
 !ent/schema/
+
+# Environment
+.env
